@@ -11,6 +11,6 @@ do
   # Get the response of the parameter request
   response=$(curl -s --max-time 5 --max-limit 100K -A "$ua" "$1?$2=$i")
   # Filter out the common error response
-  echo "$response" | egrep -q "$3" | tee parameter_number_response.txt
+  echo "$response" | egrep -iq "$3" || tee parameter_number_response.txt
   # sleep $(((RANDOM%5)+1))
 done

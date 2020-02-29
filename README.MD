@@ -1,3 +1,3 @@
-# Security
+# security
 
-*Author: Austin Jansz - DURHAM COLLEGE | UOIT
+*Author: Austin Jansz - DURHAM COLLEGE | UOIT | OntarioTechU*

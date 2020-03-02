@@ -4,7 +4,7 @@ if [ "$1" == "-h" ]; then
 fi
 
 # Clean the metadata of the files within
-exiftool -all= -overwrite_original -q -ext "2" "$1"
+exiftool -all= -overwrite_original -q -ext "$2" "$1"
 # Rename the files to an iterating number if selected
 if [ "$3" == "nums" ]; then
 	a=1

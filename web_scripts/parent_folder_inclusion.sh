@@ -1,8 +1,8 @@
 #!/bin/bash
 # Simple help message for use when learning how to use the tool
 if [ "$1" == "-h" ]; then
-  echo "./parent_folder_search.sh [DOMAIN_NAME] [PARAMETER] [KNOWN_FILE_PATH] [--echo]"
-  exit 0
+	echo "./parent_folder_search.sh [DOMAIN_NAME] [PARAMETER] [KNOWN_FILE_PATH] [--echo]"
+	exit 0
 fi
 
 # Set the parent folder to blank to test current directory

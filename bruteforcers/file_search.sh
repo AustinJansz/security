@@ -1,6 +1,8 @@
+#!/bin/bash
+# Simple help message for use when learning how to use the tool
 if [ "$1" == "-h" ]; then
-  echo "./file_search.sh DOMAIN_NAME FILE_WORDLIST EXTENSION_WORDLIST UNWANTED_RESPONSE"
-  exit 0
+	echo "./file_search.sh DOMAIN_NAME FILE_WORDLIST EXTENSION_WORDLIST UNWANTED_RESPONSE"
+	exit 0
 fi
 
 # Customize user-agent

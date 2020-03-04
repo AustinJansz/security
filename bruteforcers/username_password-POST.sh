@@ -1,6 +1,8 @@
+#!/bin/bash
+# Simple help message for use when learning how to use the tool
 if [ "$1" == "-h" ]; then
-  echo "./username_password-POST.sh DOMAIN_NAME USERNAME_WORDLIST PASSWORD_WORDLIST UNWANTED_RESPONSE"
-  exit 0
+	echo "./username_password-POST.sh DOMAIN_NAME USERNAME_WORDLIST PASSWORD_WORDLIST UNWANTED_RESPONSE"
+	exit 0
 fi
 
 # Customize user-agent

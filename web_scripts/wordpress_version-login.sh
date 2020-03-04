@@ -1,3 +1,5 @@
+#!/bin/bash
+# Simple help message for use when learning how to use the tool
 if [ "$1" == "-h" ]; then
   echo "./wordpress_version-login.sh DOMAIN_NAME WORDPRESS_VERSION(DOTS REMOVED)"
   exit 0

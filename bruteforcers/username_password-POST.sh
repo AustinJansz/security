@@ -1,12 +1,12 @@
 #!/bin/bash
 # Simple help message for use when learning how to use the tool
-if [ "$1" == "-h" ]; then
-	echo "./username_password-POST.sh DOMAIN_NAME USERNAME_WORDLIST PASSWORD_WORDLIST UNWANTED_RESPONSE"
+if [ "$1" == '-h' ]; then
+	echo './username_password-POST.sh DOMAIN_NAME USERNAME_WORDLIST PASSWORD_WORDLIST UNWANTED_RESPONSE'
 	exit 0
 fi
 
 # Customize user-agent
-ua="Mozilla/5.0 (Windows NT 6.1; Win64,x64, rv:59.0) Gecko/20100101 Firefox/59.0"
+ua='Mozilla/5.0 (Windows NT 6.1; Win64,x64, rv:59.0) Gecko/20100101 Firefox/59.0'
 # Read input wordlist line-by-line
 while IFS= read -r password
 do
